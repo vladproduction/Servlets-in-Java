@@ -1,0 +1,224 @@
+{
+	"info": {
+		"_postman_id": "2ffce219-ed45-459e-ac4b-05fc22d4628c",
+		"name": "Vlad-servletapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27710072"
+	},
+	"item": [
+		{
+			"name": "doGet();",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/servletapp/myServlet?age=40&height='174'&weight='79'&contextAction=Keep practice!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servletapp",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "40"
+						},
+						{
+							"key": "height",
+							"value": "'174'"
+						},
+						{
+							"key": "weight",
+							"value": "'79'"
+						},
+						{
+							"key": "contextAction",
+							"value": "Keep practice!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JsonServletGet",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/servletapp/myJsonServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servletapp",
+						"myJsonServlet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "doPost();",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Some Text from Postman (doPost) in Body;\r\nline 2\r\nline 3"
+				},
+				"url": {
+					"raw": "http://localhost:8080/servletapp/myServlet?age=40&height='174'&weight='79'&contextAction=Keep practice!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servletapp",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "40"
+						},
+						{
+							"key": "height",
+							"value": "'174'"
+						},
+						{
+							"key": "weight",
+							"value": "'79'"
+						},
+						{
+							"key": "contextAction",
+							"value": "Keep practice!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "doPut();",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Some Text from Postman (doPut) in Body;"
+				},
+				"url": {
+					"raw": "http://localhost:8080/servletapp/myServlet?age=40&height='174'&weight='79'&contextAction=Keep practice!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servletapp",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "40"
+						},
+						{
+							"key": "height",
+							"value": "'174'"
+						},
+						{
+							"key": "weight",
+							"value": "'79'"
+						},
+						{
+							"key": "contextAction",
+							"value": "Keep practice!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "doDelete();",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Some Text from Postman (doDelete) in Body;"
+				},
+				"url": {
+					"raw": "http://localhost:8080/servletapp/myServlet?age=40&height='174'&weight='79'&contextAction=Keep practice!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servletapp",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "40"
+						},
+						{
+							"key": "height",
+							"value": "'174'"
+						},
+						{
+							"key": "weight",
+							"value": "'79'"
+						},
+						{
+							"key": "contextAction",
+							"value": "Keep practice!"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
