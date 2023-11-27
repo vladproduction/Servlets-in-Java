@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "cb56c858-bb7b-481c-8a90-92f307b24509",
+		"name": "Vlad-Servlet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "992530"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/my-servlet-app/myServlet?phone=Apple4&computer=Windows",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"my-servlet-app",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "phone",
+							"value": "Apple4"
+						},
+						{
+							"key": "computer",
+							"value": "Windows"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JsonServletGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/my-servlet-app/myJsonServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"my-servlet-app",
+						"myJsonServlet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Denys Text for POST in body;\r\nThis is line ttttt"
+				},
+				"url": {
+					"raw": "http://localhost:8080/my-servlet-app/myServlet?phone=Apple4&computer=Windows&test=QQQ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"my-servlet-app",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "phone",
+							"value": "Apple4"
+						},
+						{
+							"key": "computer",
+							"value": "Windows"
+						},
+						{
+							"key": "test",
+							"value": "QQQ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Denys Text for PUT in body;\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/my-servlet-app/myServlet?phone=Apple4&computer=Windows",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"my-servlet-app",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "phone",
+							"value": "Apple4"
+						},
+						{
+							"key": "computer",
+							"value": "Windows"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "my-name",
+						"value": "Vlad",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Denys Text for DELETE in body;\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/my-servlet-app/myServlet?phone=Apple4&computer=Windows",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"my-servlet-app",
+						"myServlet"
+					],
+					"query": [
+						{
+							"key": "phone",
+							"value": "Apple4"
+						},
+						{
+							"key": "computer",
+							"value": "Windows"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
