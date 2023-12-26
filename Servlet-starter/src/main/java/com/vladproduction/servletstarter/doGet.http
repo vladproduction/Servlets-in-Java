@@ -1,0 +1,1 @@
+GET http://localhost:8080/Servlet_starter_war_exploded/user-servlet?username=user&userage=23
