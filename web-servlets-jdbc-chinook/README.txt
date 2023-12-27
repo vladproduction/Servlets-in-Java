@@ -1,0 +1,1 @@
+-connection to DB by connection pool (payara can do that after settings: localhost:4848)
